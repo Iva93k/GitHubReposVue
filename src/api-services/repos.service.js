@@ -7,7 +7,7 @@ export default {
     return Axios.get(RESOURCE_NAME)
   },
 
-  update (id, data) {
-    return Axios.put(`${RESOURCE_NAME}/${id}`, data)
+  update (data) {
+    return Axios.put(data)
   }
 }

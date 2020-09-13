@@ -3,7 +3,7 @@
             type="dark"
             variant="info">
     <b-navbar-brand :to = "{name: 'Home'}">GitHub Repository Home</b-navbar-brand>
-    <b-navbar>Look at Repository Details</b-navbar>
+    <b-navbar-brand :to ="{name: 'RepositoryDetails'}">Look at Repository Details</b-navbar-brand>
   </b-navbar>
 </template>
 <script>
