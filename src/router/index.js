@@ -15,7 +15,7 @@ export default new Router({
       component: Home
     },
     {
-      path: '/repos/getRepository',
+      path: '/repos/updateRepository',
       name: 'RepositoryDetails',
       component: RepositoryDetails
     },

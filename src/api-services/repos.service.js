@@ -8,6 +8,7 @@ export default {
   },
 
   update (data) {
-    return Axios.put(data)
+    // console.log(data)
+    return Axios.post(RESOURCE_NAME, data)
   }
 }

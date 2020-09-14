@@ -20,7 +20,7 @@ export default {
 <style scoped>
   .homeText {
     font-size: 35px;
-    color: red;
+    color: black;
     text-align: center;
     position: relative;
     top: 30px;
